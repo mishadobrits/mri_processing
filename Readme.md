@@ -1,1 +1,1 @@
-First commuit
+First commit
