@@ -1,0 +1,10 @@
+stages:
+  stage1_can_be_any_name:
+    desc: Creates an example dataset
+    cmd: python prepare_dataset.py
+    deps: [prepare_dataset.py]
+    outs: [dataset.npy]
+  stage2_example:
+    cmd: python stage2.py
+    deps: [stage2.py, dataset.npy]
+    outs: []

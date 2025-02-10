@@ -1,0 +1,4 @@
+stage1:
+  mean: 0.5
+  std: 1
+  shape: [10, 20]
